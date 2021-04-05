@@ -56,10 +56,7 @@ namespace Assignment7TriggerRatingsByType
                                 "totalRating",
                                 new AttributeValueUpdate{ Action = "ADD", Value = new AttributeValue{ N = myBook.rating.ToString()} }
                             },
-                            {
-                                "averageRating",
-                                new AttributeValueUpdate{ Action = "ADD", Value = new AttributeValue{ N = ""} }
-                            },                      
+                                                  
                         },
 
                     };
